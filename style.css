@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vh;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrato_left , .quadrato_center, .quadrato_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 1px solid black;
+  margin: 10px;
+
+}
+
+.quadrato_left {
+  background: lightblue;
+}
+
+.quadrato_center {
+  background: lightgreen;
+}
+
+.quadrato_right {
+  background: lightpink;
+}
